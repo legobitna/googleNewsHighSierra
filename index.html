@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Bitna's News Desk!!</h1>
+    <select id="category" onchange="searchByCategory()">
+        <option value="business">business</option>
+        <option value="entertainment">entertainment</option>
+        <option value="general">general</option>
+        <option value="health">health</option>
+    </select>
+      <div id="sourceArea">ss</div>
+    <div id="newsArea">
+        <div id="news" style="display: flex; border:1px solid grey">
+            <img style="width:200px"
+                src="https://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1" />
+            <div>
+                <h2>news title</h2>
+                <p>say something details,say something details say something details say something detailssay something
+                    detailssay something detailssay something detailssay something details</p>
+                <div>2020-March-11th</div>
+                <div>BBC NEWS</div>
+            </div>
+        </div>
+
+    </div>
+    <button onclick="loadMore()">Bring more</button>
+    <script src="main.js" />
+    </body>
+</html>
